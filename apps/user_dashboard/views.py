@@ -4,3 +4,6 @@ from django.shortcuts import render, redirect
 def index(request):
     return render(request, "user_dashboard/index.html")
 
+def signin(request):
+    return render(request, "user_dashboard/signin.html")
+
